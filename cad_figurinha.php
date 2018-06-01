@@ -11,7 +11,7 @@ $linhas = $_POST["figurinhas"];
 $linha_quebrada = explode("\n", $linhas);
 
 
-echo "<a href='gerar_album.php'>Atualizar Album </a>";
+echo "<p><a href='gerar_album.php'> Atualizar Album </a></p>";
 
 foreach ($linha_quebrada as $i) {
 
